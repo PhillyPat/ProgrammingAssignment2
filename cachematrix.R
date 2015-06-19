@@ -1,11 +1,14 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Date: June 19, 2015
+## Programmer: Philly Pat
+## Title: cachematrix.R
+## Purpose: Fulfilling Assignment 2 for R-Programming
+##
+## Functions:
+##  makeCacheMatrix
+##  cacheSolve
 
 ## These functions will take an invertible matrix and store it in 
 ## memory so that both it and its inverse may be retrieved rapidly.
-
-
-## Write a short comment describing this function
 
 ## This function takes in an invertible matrix.  
 ## It can return it via get()
@@ -27,9 +30,6 @@ makeCacheMatrix <- function(x = matrix())
  list(set = set, get = get, setinv = setinv,getinv = getinv)
 
 }
-
-
-## Write a short comment describing this function
 
 ## This function will return the inverse of a matrix for
 ## a cached matrix if that inverse has already been calculated.
